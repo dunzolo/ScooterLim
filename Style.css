@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url(background.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.Contenitore, .Rettangolo{
+  margin: auto;
+}
+
+.Rettangolo{
+  width: 1200px;
+  height: 800px;
+  background-color:rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.Contenitore{
+  width: 1000px;
+}
+
+header, nav{
+  text-align: center;
+}
+
+.Logo{
+  width: 250px;
+  margin-top: 50px;
+}
+
+.LogoTesto{
+  color: rgb(0, 221, 0);
+}
+
+.Pulsanti{
+  background-color: rgb(0, 221, 0);
+  padding: 10px;
+}
+
+h1, h2, p{
+  margin-bottom: 5px;
+}
+
+p{
+  margin-top: 5px;
+}
+
+.Selezione > h2{
+  display: inline-block;
+}
+
+.Freccia:after{
+  content: "\21A6";
+}
+
+.Stato{
+  height: 20px;
+  border-radius: 5px;
+}
+
+.Primo.Stato{
+  background-color: orange;
+  width: 30%;
+}
+
+.Secondo.Stato{
+  background-color: rgb(0, 221, 0);
+  width: 90%;
+}
+
+.Terzo.Stato{
+  background-color: red;
+  width: 10%;
+}
